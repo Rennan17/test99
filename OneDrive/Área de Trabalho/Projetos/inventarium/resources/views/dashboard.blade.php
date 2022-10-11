@@ -1,5 +1,6 @@
 @extends('layouts.default')
 @section('content') 
+{{ dd($products) }}
 <section class = "text-gray-600" > <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
